@@ -147,7 +147,7 @@ export default function SignIn() {
           >
             {loading ? <LoadingSpinner className="mx-auto" /> : 'Sign In'}
           </button>
-            <Button onClick={signInWithGoogle}>Login With Google</Button>
+            <Button onClick={signInWithGoogle} disabled={true}>Login With Google (Disabled)</Button>
         </form>
       </div>
     </div>
